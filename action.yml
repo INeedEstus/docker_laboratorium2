@@ -1,0 +1,6 @@
+# action.yml
+name: 'Serwer z aplikacja'
+description: 'Serwer z aplikacja w jezyku Python'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
