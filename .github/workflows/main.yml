@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64/v8
           push: true
-          tags: lipol/test:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/test:latest
